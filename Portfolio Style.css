@@ -1,0 +1,186 @@
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style:normal;
+}
+
+html {
+    font-family: 'Playfair Display', serif;
+}
+.header {
+  
+  background-color: white;
+  background: linear-gradient(90deg);
+  padding: 0px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position:sticky;
+  top:0;
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Playfair Display';
+    font-style: roman ;
+}
+
+
+h1 {
+    color: antiquewhite;
+    font-family: 'Playfair Display', italic;
+    font-display:unset;
+    font-size:larger;
+    font:bold;
+}
+
+
+.Lenguajes img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    
+    
+}
+h2{
+    color: antiquewhite;
+    font-size:medium;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+
+h3{
+    color: antiquewhite;
+    font-size:medium;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    margin-top: 100px;
+}
+
+.profile-picture img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    animation: fadeIn 2s ease forwards;
+}
+
+.containers {
+    max-width: 1200px;
+    margin:50px;
+    padding: 0 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn 4s ease forwards;
+
+    flex-wrap: wrap;
+  
+  }
+
+
+
+    .feature h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      h4{
+        text-align: center;
+        font-size: medium;
+        font-style: bold;
+        color: antiquewhite;
+      }
+
+      .Lenguajes {
+        padding: 50px 0;
+      }
+      
+      .Lenguaje {
+        text-align: center;
+        margin-bottom: 40px;
+        width: 500px;
+      }
+      ul {
+        position: relative;
+        width: 90%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        justify-content: end;
+        align-items: center;
+      }
+      
+      li {
+        list-style: none;
+        margin-right: 10px;
+      }
+      
+      ul li a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #444;
+      }
+
+      
+
+
+    
+  
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+      
+  .Projects ul{
+    position:absolute;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  h5{
+    color: antiquewhite;
+    font-size: small;
+   
+  }
+  .Projects img{
+    border-radius: 10%;
+    width:250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+  }
+
+  .Projects a{
+    color: aliceblue;
+  }
+
+  .Projects h4{
+    font-style: normal;
+    font-size: small;
+   
+  }
+
+  footer h5{
+    background-color: beige;
+    color: #444;
+  }
